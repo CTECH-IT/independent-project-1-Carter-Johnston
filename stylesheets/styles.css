@@ -1,1 +1,26 @@
-/* Put your CSS here */
+body {
+  background: rgb(97,64,32);
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+}
+
+.page-title {
+  background-color: grey;
+  color: rgb(97,64,32);
+  font-size: 37px;
+  text-shadow: -1px -1px 0 #000,
+               1px -1px 0 #000,
+               -1px 1px 0 #000,
+               1px 1px 0 #000;
+}
+
+.item-name {
+  background-color: rgb(97,64,32);
+  color: grey;
+  font-size: 15px;
+  text-shadow: -1px -1px 0 #000,
+               1px -1px 0 #000,
+               -1px 1px 0 #000,
+               1px 1px 0 #000;
+}
