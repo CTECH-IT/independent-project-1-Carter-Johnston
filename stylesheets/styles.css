@@ -24,3 +24,12 @@ body {
                -1px 1px 0 #000,
                1px 1px 0 #000;
 }
+
+.item-image {
+height: 318px;
+width: 512px;
+}
+
+.item-name {
+  font-size: 48px;
+}
