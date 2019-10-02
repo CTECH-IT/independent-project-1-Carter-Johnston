@@ -1,7 +1,9 @@
+
 body {
   background: rgb(97,64,32);
   display: flex;
   flex-direction: column;
+  font-family: 'Righteous', cursive;
   font-size: 10px;
 }
 
