@@ -28,12 +28,13 @@ body {
 }
 
 .item-image {
-height: 318px;
-width: 512px;
+height: 250px;
+width: 325px;
 }
 
 .item-name {
   font-size: 48px;
+  text-align: justify;
 }
 
 html, body {
