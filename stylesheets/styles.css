@@ -33,8 +33,13 @@ width: 325px;
 }
 
 .item-name {
-  font-size: 48px;
-  text-align: justify;
+  background: grey;
+  color: rgb(97,64,32);
+  display: block;
+  font-size: 24px;
+  margin: 0;
+  padding: 0.4em 1em;
+  text-align: left;
 }
 
 html, body {
@@ -55,4 +60,16 @@ html, body {
 .detail-image-frame {
   position: relative;
   text-align: center;
+}
+
+.thumbnail-list {
+  display: flex;
+  flex: 0 1 auto;
+  justify-content: space-between;
+  list-style: none;
+  order: 2;
+
+  overflow-x: auto;
+  padding: 20px 0;
+  white-space: nowrap;
 }
